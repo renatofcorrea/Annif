@@ -57,12 +57,14 @@ steps:
     image: plugins/docker
     settings:
       <<: *docker_settings
-      auto_tag: true
+      tags:
+        - '0.53.0'
+        - '0.53'
     when:
       branch:
-      - master
+      - manual-tag-0.53-for-drone
       event:
-      - tag
+      - push
 
 ---
 kind: secret
