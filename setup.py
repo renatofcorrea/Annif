@@ -24,7 +24,7 @@ setup(
         'swagger_ui_bundle',
         'flask',
         'flask-cors',
-        'click==8.0.*',
+        'click==7.1.2',
         'click-log',
         'joblib==1.0.1',
         'nltk',
@@ -45,6 +45,7 @@ setup(
         'nn': ['tensorflow-cpu==2.5.0', 'lmdb==1.2.1'],
         'omikuji': ['omikuji==0.3.*'],
         'yake': ['yake==0.4.5'],
+        'spacy': ['spacy==3.1.*'],
         'dev': [
             'codecov',
             'pytest-cov',
