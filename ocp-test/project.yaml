@@ -114,7 +114,7 @@ metadata:
   labels:
     type: external
 spec:
-  host: ai.finto.fi.ext.ocp-test-0.k8s.it.helsinki.fi
+  host: ai.finto.fi.ext.ocp-kk-test-0.k8s.it.helsinki.fi
   port:
     targetPort: 8080
   to:
